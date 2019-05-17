@@ -1,4 +1,4 @@
-# Process Oriented Text Generation Prototype
+# Sound Process Description Generation Prototype
 
 > Business process descriptions are useful documents that are becoming increasingly important for identifying and documenting business processes. They are particularly beneficial during discovery when information about the process is gathered in interviews or by observation. As natural language descriptions are intrinsically ambiguous, it is the major challenge to formulate them in a precise and correct way right from the start. 
 
