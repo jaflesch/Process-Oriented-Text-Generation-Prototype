@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mainService:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79ae6165-a947-4b17-91f3-276a50d47dc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/mainService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mainService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/StanfordParser/english-left3words-distsim.tagger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/StanfordParser/english_UD.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/StanfordParser/wsj-0-18-bidirectional-nodistsim.tagger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/application/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/beans/AjaxExampleBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/beans/MainBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/converter/ProcessXmlConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/converter/StructuredXmlGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/ClientConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/EurekaServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/ServiceRegistryConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/processVerification/ProcessVerificationClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/processVerification/ProcessVerificationUrls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/textReader/TextReaderClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/textReader/TextReaderURLs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/textWriter/TextWriterClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/rest/textWriter/TextWriterURLs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/service/IBpmnVerificationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/service/ITextReaderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/service/ITextWriterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/TProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/TResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/TSentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/TSnippet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/TText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/TTextMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/textmetadata/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/util/Paths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/util/ResourceLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/util/VersionNumberComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/ActivityContextBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/PeocessModelReduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/ProcessModelRefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/SimilarityCalculator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/SimilarityCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/SimilarityGEDApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/SimilarityHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/SimilaritySearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/latex/SimilarityGEDTableGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/latex/SimilarityTMTableGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/latex/TableGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/similarityData/SimilarityData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/similarityData/SimilarityDataGED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/similarityData/SimilarityDataTM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/SimilarityCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/TextModelSimilarityApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/TokensPreparation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/Lemmatization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/LexicalizedParserManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/Punctuation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/RelevantClauseExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/StopWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/TaggerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/coreference/Coreference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/coreference/term/RelatedTerms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/nlp/coreference/term/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/representation/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/representation/Representation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/textmodelsimilarity/representation/SentenceText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/util/FileNameHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/util/MetaTextWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/validation/util/ValidationUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/verificationmessages/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/verificationmessages/TBpmnVerification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/verificationmessages/TMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/verificationmessages/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/wrapper/BpmnWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/wrapper/DocumentStringWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/wrapper/JaxbWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/wrapper/JsonWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/br/edu/ufrgs/inf/bpm/wrapper/ListOfJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/lib/prom/ProM5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/lib/prom/lpsolve55j.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/lib/wordnet/ws4j-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/BPMNDiagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/BPMNEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/BPMNLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/BPMNLabelStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/BPMNPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/BPMNShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/MessageVisibleKind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/ParticipantBandKind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/di/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TAdHocOrdering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TAdHocSubProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TArtifact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TAssignment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TAssociationDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TAuditing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TBaseElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TBaseElementWithMixedContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TBoundaryEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TBusinessRuleTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCallActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCallChoreography.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCallConversation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCallableElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCancelEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCatchEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCategoryValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TChoreography.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TChoreographyActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TChoreographyLoopType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TChoreographyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCollaboration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCompensateEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TComplexBehaviorDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TComplexGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TConditionalEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TConversation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TConversationAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TConversationLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TConversationNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCorrelationKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCorrelationProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCorrelationPropertyBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCorrelationPropertyRetrievalExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TCorrelationSubscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataInputAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataObjectReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataOutputAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDataStoreReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TDocumentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEndEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TErrorEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEscalation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEscalationEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEventBasedGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEventBasedGatewayType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TExclusiveGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TExtensionElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TFlowElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TFlowNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TFormalExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGatewayDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalBusinessRuleTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalChoreographyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalConversation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalManualTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalScriptTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGlobalUserTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/THumanPerformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TImplicitThrowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TImport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TInclusiveGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TInputOutputBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TInputOutputSpecification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TInputSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TIntermediateCatchEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TIntermediateThrowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TItemDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TItemKind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TLane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TLaneSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TLinkEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TLoopCharacteristics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TManualTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMessageEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMessageFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMessageFlowAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMonitoring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMultiInstanceFlowCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TMultiInstanceLoopCharacteristics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TOutputSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TParallelGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TParticipant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TParticipantAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TParticipantMultiplicity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TPartnerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TPartnerRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TPerformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TPotentialOwner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TProcessType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TReceiveTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TRelationship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TRelationshipDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TRendering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TResourceAssignmentExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TResourceParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TResourceParameterBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TResourceRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TRootElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TScriptTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSendTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSequenceFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TServiceTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSignal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSignalEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TStandardLoopCharacteristics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TStartEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSubChoreography.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSubConversation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TSubProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TTerminateEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TTextAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TThrowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TTimerEventDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/TUserTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/bpmn/_20100524/model/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/dc/Bounds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/dc/Font.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/dc/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/dc/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/dc/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Diagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/DiagramElement$Extension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/DiagramElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/LabeledEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/LabeledShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Plane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/omg/spec/dd/_20100524/di/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/GraphMatchingResults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/SimilarityTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/DistanceAlgo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/DistanceAlgoAbstr$Mapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/DistanceAlgoAbstr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceAStarSim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceAllOptions$UnfinishedMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceAllOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceGreedy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceLexical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceProcessHeuristic$CurrentMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/algos/GraphEditDistanceProcessHeuristic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/graph/SimpleGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/graph/TwoVertices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/org/processmining/analysis/graphmatching/led/StringEditDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/BpmnVerificationDefinition.wadl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/TextReaderDefinition.wadl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/TextWriterDefinition.wadl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/BPMN20.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/BPMNDI.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/DC.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/DI.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/Semantic.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/TextMetadata.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/classes/wadl/schemas/VerificationMessages.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/AppleJavaExtensions-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/ProM5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/ant-1.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/ant-launcher-1.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/ant-nodeps-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/classworlds-1.1-alpha-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/commons-lang-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/commons-lang3-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-api-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-common-utilities-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-rt-bindings-xml-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-rt-core-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-rt-frontend-jaxrs-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-rt-transports-common-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-rt-transports-http-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-tools-common-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-tools-wadlto-jaxrs-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/cxf-wadl2java-plugin-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/ejml-0.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/el-ri-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/httpcore-4.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/javax.inject-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/javax.json-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/javax.ws.rs-api-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jaxb-api-2.4.0-b180830.0359.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jaxb-core-2.3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jaxb-impl-2.4.0-b180830.0438.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jaxb-xjc-2.1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jersey-client-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jersey-common-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jettison-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jollyday-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jsf-api-2.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jsf-impl-2.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jsp-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/lpsolve55j.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/lucene-analyzers-common-4.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/lucene-core-4.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/lucene-queries-4.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/lucene-queryparser-4.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/lucene-sandbox-4.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/maven-artifact-resolver-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/neethi-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/oro-2.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/plexus-archiver-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/plexus-container-default-1.0-alpha-9-stable-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/plexus-io-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/plexus-utils-2.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/protobuf-java-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/slf4j-api-1.7.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/stanford-corenlp-3.9.2-models.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/stanford-corenlp-3.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/stax2-api-3.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/velocity-1.6.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/woodstox-core-asl-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/ws4j-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/wsdl4j-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/xalan-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/xercesImpl-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/xml-apis-1.3.03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/xml-resolver-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/xmlschema-core-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/lib/xom-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/ajax.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/left-tab.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/main-content.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/nav.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab-content/bpmn-file.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab-content/errors-text.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab-content/structured-text.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab-content/tab-nav.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab-content/unstructured-meta-text.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab-content/unstructured-text.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/right-tab.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/sidebar-content/bpmn-verification.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/sidebar-content/text-markers.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/components/sidebar-content/text-structuring.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/main.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/css/material-kit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/css/material-kit.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/arrow-left.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/arrow-right.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/bg2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/bg3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/bg4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/christian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/chris9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/examples/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/AU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/BE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/BF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/BG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/BO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/BR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/CZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/DE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/DJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/DK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/DZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/EE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/EG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/ES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/FI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/FR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/GA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/GM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/GT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/HN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/HT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/HU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/ID.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/IE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/IL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/IN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/IQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/IR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/IT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/JM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/JO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/JP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/KG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/KN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/KP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/KR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/KW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/KZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/LA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/LB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/LC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/LS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/LU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/LV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/MG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/MK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/ML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/MM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/MT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/MX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/NA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/NG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/NI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/NL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/NO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/OM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/PY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/QA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/RO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/RU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/RW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/SV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/TD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/TJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/TL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/TR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/TZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/UA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/US.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/VE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/VN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/flags/YE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/kendall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/landing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/loading-bubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/marc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/js/material-kit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/js/material.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/js/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_checkboxes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_dialogs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_dividers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_example-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_import-bs-less.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_import-bs-sass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_info-areas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_inputs-size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_pills.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_popups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_radios.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_ripples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_sections.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_togglebutton.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_variables_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/_welljumbo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/plugins/_plugin-datepicker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/plugins/_plugin-dropdownjs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/plugins/_plugin-nouislider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/plugins/_plugin-selectize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/assets/sass/material-kit/plugins/_plugin-snackbarjs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/components-documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/examples/landing-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/examples/profile-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/examples/signup-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/material-kit/tutorial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/css/boxes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/css/sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/img/ufrgs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/converter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/processElementMarkers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/processVerificationMarkers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/resourcesMarkers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/textStructure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GlassFish/resources/js/util.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/ActivityContextBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="cxf-wadl2java" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="prom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="wordnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProcessVerificationService" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Glassfish 5.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.01" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bpmparser/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mainService:Web exploded">
+          <settings>
+            <option name="contextRoot" value="/bpmparser" />
+            <option name="defaultContextRoot" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mainService:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79ae6165-a947-4b17-91f3-276a50d47dc8" name="Default Changelist" comment="" />
+      <created>1557185888418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557185888418</updated>
+      <workItem from="1557185890021" duration="1597000" />
+      <workItem from="1557285920578" duration="1192000" />
+      <workItem from="1557451938290" duration="625000" />
+      <workItem from="1557588436060" duration="893000" />
+      <workItem from="1558057392114" duration="819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5126000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/ufrgs/inf/bpm/validation/grapheditdistance/ActivityContextBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>mainService:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|mainService</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
