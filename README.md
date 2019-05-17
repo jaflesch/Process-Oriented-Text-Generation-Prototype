@@ -14,7 +14,7 @@ A service-oriented architecture prototype that analyzes a process description wr
 ## Get Started
 
 1. Download and install all the listed softwares above
-2. Clone this repo
+2. Clone this repository
 3. Open IntelliJ IDEA and browse for the MainService, ServiceRegistry and the desired services's folders
 4. Note that you have to open an Intellij IDEA instance for each project in order to compile and run it
 
@@ -64,17 +64,26 @@ Now the GlassFish server is configured and ready to run the application. Build a
 
 > **Note 2**: By default, the MainService runs at http://localhost:8080 and ServiceRegistry at http://localhost:8090
 
-
+---
 
 ### More Examples and Tutorials
 
-[JetBrains - Developing Web Applications](https://www.jetbrains.com/help/idea/developing-web-applications.html)
-[JetBrains - Creating and Running Your First RESTful Web Service on GlassFish Application Server](https://www.jetbrains.com/help/idea/creating-and-running-your-first-restful-web-service.html)
+- [JetBrains - Developing Web Applications](https://www.jetbrains.com/help/idea/developing-web-applications.html)
+- [JetBrains - Creating and Running Your First RESTful Web Service on GlassFish Application Server](https://www.jetbrains.com/help/idea/creating-and-running-your-first-restful-web-service.html)
 
 ## Services
 
-[Main Service]()
-[Service Registry]()
-Text Reader Service
-Text Writer Service
-Process Verification Service
+- [Main Service](MainService)
+- [Service Registry](ServiceRegistry)
+- [Text Reader Service](TextReaderService)
+- [Text Writer Service](TextWriterService)
+- [Process Verification Service](ProcessVerificationService)
+
+## Credits
+1. [Thanner Soares Silva](mailto:thanner.silva@inf.ufrgs.br) | Institute of Informatics - Federal Univ. of Rio Grande do Sul
+2. [Diego Toralles Avila](mailto:dtavila@inf.ufrgs.br) | Institute of Informatics - Federal Univ. of Rio Grande do Sul
+3. [Jean Ampos Flesch](mailto:jaflesch@inf.ufrgs.br) | Institute of Informatics - Federal Univ. of Rio Grande do Sul
+4. [Sarajane Marques Peres](mailto:sarajane@usp.br) | School of Arts, Sciences and Humanities - University of Sao Paulo
+5. [Jan Mendling](mailto:jan.mendling@wu.ac.at) | Institute for Information Business - Vienna Univ. of Economics and Business
+6. [Lucineia Heloisa Thom](mailto:lucineia@inf.ufrgs.br) | Institute of Informatics - Federal Univ. of Rio Grande do Sul
+
